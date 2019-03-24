@@ -1,0 +1,1 @@
+cmd_/home/yyzs/os_design/3/mydriver.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/yyzs/os_design/3/mydriver.ko /home/yyzs/os_design/3/mydriver.o /home/yyzs/os_design/3/mydriver.mod.o ;  true
